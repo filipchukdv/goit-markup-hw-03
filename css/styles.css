@@ -104,10 +104,8 @@ img {
 
 /* Герой */
 .hero-section {
-  background-color: var(--secondary-background-color);
-}
-.hero-container {
   padding: 200px 0;
+  background-color: var(--secondary-background-color);
 }
 .hero-title {
   font-weight: 900;
@@ -170,6 +168,11 @@ img {
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-bottom: 10px;
+}
+.list-item-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .features-list {
   display: flex;
@@ -274,8 +277,9 @@ img {
   letter-spacing: 0.03em;
   cursor: pointer;
   padding: 6px 22px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12); */
+    /* тіні будуть при ховері */
   border-radius: 4px;
   border: 1px solid transparent;
 }
@@ -323,8 +327,8 @@ img {
 }
 
 .card-content {
-  padding: 20px 24px 0 24px;
+  padding: 20px 24px;
   border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;;
-  border-right: 1px solid #eeeeee;;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
